@@ -1,0 +1,23 @@
+git clone get url from gitlab
+ls
+CIST1300-001
+cd CIST1300-001/
+ls
+vim index.txt
+ec
+:wq -- save
+vim index.txt
+esc
+:q! --exit without saving
+git status
+git add .
+git status
+git commit -m "My first file to gitLab"
+git status
+git config --global user.name "sriramsrinivasan"
+git config --global user.email "sriramsrinivas@unomaha.edu"
+git config --list
+vim index.txt
+git commit -m "changes"
+git log
+git push origin branch1
